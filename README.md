@@ -55,6 +55,12 @@ npm start
 
 <img width="1512" alt="Screenshot 2022-10-10 at 21 37 32" src="https://user-images.githubusercontent.com/77352013/194940483-202c766a-a1fa-4b5c-ae32-2effcafdf379.png">
 
+## Useful shortcuts
+
+- Saving the file and hot reloading the code: **ctrl + s**
+- Formating the code to make it look really nice: **alt + shift + f** (I think)
+- Turning of the React app: **ctrl + c**
+
 ## Using React hooks
 
 - "React hooks" is the most useful thing in React and their knowledge is the must have. Here are the docs for them: https://reactjs.org/docs/hooks-overview.html or watch this video: https://www.youtube.com/watch?v=TNhaISOUy6Q
