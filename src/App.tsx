@@ -2,8 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './App.css';
 
-function App() {
+export const App = () => {
   const [cislo, setCislo] = useState("Ahoj")
+
   console.log("Běžím")
   const navigate = useNavigate()
 
@@ -23,7 +24,7 @@ function App() {
           console.log(e)
           console.log(e.target.value)
         }}></input>
-        <button onClick={plusJedna}>plus jedna</button>
+        <button onClick={() =>{ plusJedna()}}>plus jedna</button>
         <br></br>
         <button onClick={() => {
           navigate("/druhastranka")
@@ -32,5 +33,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
